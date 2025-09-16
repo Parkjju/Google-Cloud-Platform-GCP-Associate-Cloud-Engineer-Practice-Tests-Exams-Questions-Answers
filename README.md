@@ -317,6 +317,14 @@ C. Execute the Deployment Manager template against a separate project with the s
 D. Execute the Deployment Manager template using the C-preview option in the same project, and observe the state of interdependent resources.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company has a 3-tier solution running on Compute Engine. The configuration of the current infrastructure is shown below. Each tier has a service account that is associated with all instances within it. You need to enable communication on TCP port 8080 between tiers as follows: Instances in tier #1 must communicate with tier #2. Instances in tier #2 must communicate with tier #3. What should you do?
@@ -332,6 +340,14 @@ C. 1. Create an ingress firewall rule with the following settings: Targets: all 
 D. 1. Create an egress firewall rule with the following settings: Targets: all instances. Source filter: IP ranges (with the range set to 10.0.2.0/24). Protocols: allow TCP: 8080. 2. Create an egress firewall rule with the following settings: Targets: all instances. Source filter: IP ranges (with the range set to 10.0.1.0/24). Protocols: allow TCP: 8080.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are analyzing Google Cloud Platform service costs from three separate projects. You want to use this information to create service cost estimates by service type, daily and monthly, for the next six months using standard query syntax. What should you do?
@@ -344,6 +360,14 @@ C. Export your transactions to a local file, and perform analysis with a desktop
 
 D. Export your bill to a BigQuery dataset, and then write time window-based SQL queries for analysis.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -358,6 +382,14 @@ C. Use Deployment Manager to deploy your application. Rely on the automatic enab
 D. Grant the App Engine Default service account the role of Cloud Pub/Sub Admin. Have your application enable the API on the first connection to Cloud Pub/Sub.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a website hosted on App Engine standard environment. You want 1% of your users to see a new test version of the website. You want to minimize complexity.
@@ -370,6 +402,14 @@ C. Create a new App Engine application in the same project. Deploy the new versi
 
 D. Create a new App Engine application in the same project. Deploy the new version in that application. Configure your network load balancer to send 1% of the traffic to that new application.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -384,6 +424,14 @@ C. Write a custom script that uses logging API to copy the logs from Stackdriver
 D. Export these logs to Cloud Pub/Sub and write a Cloud Dataflow pipeline to store logs to Cloud SQL.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You built an application on Google Cloud that uses Cloud Spanner. Your support team needs to monitor the environment but should not have access to table data. You need a streamlined solution to grant the correct permissions to your support team, and you want to follow Google-recommended practices. What should you do?
@@ -396,6 +444,14 @@ C. Add the support team group to the roles/spanner.databaseReader role.
 
 D. Add the support team group to the roles/stackdriver.accounts.viewer role.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -410,6 +466,14 @@ C. Package it in a container image, and run it on Kubernetes Engine, using n1-st
 D. Run it on Compute Engine, choose the instance type n1-standard-1, and add an SSD persistent disk of 32 GB.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a single binary application that you want to run on Google Cloud Platform. You decided to automatically scale the application based on underlying infrastructure CPU usage. Your organizational policies require you to use Virtual Machines directly. You need to ensure that the application scaling is operationally efficient and completed as quickly as possible. What should you do?
@@ -422,6 +486,14 @@ C. Create an instance template, and use the template in a Managed Instance Group
 
 D. Use a set of third-party tools to build automation around scaling the application up and down, based on Stackdriver CPU usage monitoring.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -436,6 +508,14 @@ C. Create a service account and add it to the IAM role 'storage.objectCreator' f
 D. Create a service account and add it to the IAM role 'storage.objectAdmin' for that bucket.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have an object in a Cloud Storage bucket that you want to share with an external company. The object contains sensitive data. You want access to the content to be removed after four hours. The external company does not have a Google account to which you can grant specific user-based access privileges. You want to use the most secure method that requires the fewest steps. What should you do?
@@ -448,6 +528,14 @@ C. Configure the storage bucket as a static website and furnish the object's URL
 
 D. Create a new Cloud Storage bucket specifically for the external company to access. Copy the object to that bucket. Delete the bucket after four hours have passed.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -462,6 +550,14 @@ C. In the Instance Template, add the label 'health-check'.
 D. In the Instance Template, add a startup script that sends a heartbeat to the metadata server.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are deploying an application to a Compute Engine VM in a Managed Instance Group. The application must be running at all times, but only a single instance of the VM should run per GCP project. How should you configure the instance group?
@@ -474,6 +570,14 @@ C. Set autoscaling to On, set the minimum number of instances to 1, and then set
 
 D. Set autoscaling to Off, set the minimum number of instances to 1, and then set the maximum number of instances to 2.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -488,6 +592,14 @@ C. Create 2 custom VPCs, each with a single subnet. Create each subnet is a diff
 D. Create 2 custom VPCs, each with a single subnet. Create each subnet in the same region and with the same CIDR range.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have an instance group that you want to load balance. You want the load balancer to terminate the client SSL session. The instance group is used to serve a public web application over HTTPS. You want to follow Google-recommended practices. What should you do?
@@ -500,6 +612,14 @@ C. Configure an external SSL proxy load balancer.
 
 D. Configure an external TCP proxy load balancer.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -514,6 +634,14 @@ C. Create a new Managed Instance Group with an updated instance template. Add th
 D. Create a new instance template with the new application version. Update the existing Managed Instance Group with the new instance template. Delete the instances in the Managed Instance Group to allow the Managed Instance Group to recreate the instance using the new instance template.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to grant access for three users so that they can view and edit table data on a Cloud Spanner instance. What should you do?
@@ -526,6 +654,14 @@ C. Run gcloud iam roles describe roles/spanner.viewer –project my-project. Add
 
 D. Run gcloud iam roles describe roles/spanner.viewer –project my-project. Add the users to a new group. Add the group to the role.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -540,6 +676,14 @@ C. Verify that you are Billing Administrator for the billing account. Create a n
 D. Verify that you are Billing Administrator for the billing account. Update the existing project to link it to the existing billing account.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have sensitive data stored in three Cloud Storage buckets and have enabled data access logging. You want to verify activities for a particular user for these buckets, using the fewest possible steps. You need to verify the addition of metadata labels and which files have been viewed from those buckets. What should you do?
@@ -552,6 +696,14 @@ C. View the bucket in the Storage section of the GCP Console.
 
 D. Create a trace in Stackdriver to view the information.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -566,6 +718,14 @@ C. Use the command line to run a dry run query to estimate the number of bytes r
 D. Run a select count (*) to get an idea of how many records your query will look through. Then convert that number of rows to dollars using the Pricing Calculator.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to monitor resources that are distributed over different projects in Google Cloud Platform. You want to consolidate reporting under the same Stackdriver Monitoring dashboard. What should you do?
@@ -578,6 +738,14 @@ C. Configure a single Stackdriver account, and link all projects to the same acc
 
 D. Configure a single Stackdriver account for one of the projects. In Stackdriver, create a Group and add the other project names as criteria for that Group.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -592,6 +760,14 @@ C. Managed Instance Group.
 D. Unmanaged Instance Group.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You created an instance of SQL Server 2017 on Compute Engine to test features in the new version. You want to connect to this instance using the fewest number of steps. What should you do?
@@ -604,6 +780,14 @@ C. Set a Windows password in the GCP Console. Verify that a firewall rule for po
 
 D. Set a Windows username and password in the GCP Console. Verify that a firewall rule for port 3389 exists. Click the RDP button in the GCP Console, and supply the credentials to log in.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -618,6 +802,14 @@ C. Assign the finance team the Billing Account User role on the billing account 
 D. Assign the engineering team the Billing Account User role on the billing account and the Project Billing Manager role on the organization.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are creating a Google Kubernetes Engine (GKE) cluster with a cluster autoscaler feature enabled. You need to make sure that each node of the cluster will run a monitoring pod that sends container metrics to a third-party monitoring solution. What should you do?
@@ -630,6 +822,14 @@ C. Reference the monitoring pod in a Deployment object.
 
 D. Reference the monitoring pod in a cluster initializer at the GKE cluster creation time.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -644,6 +844,14 @@ C. Select the latest available cluster version for your GKE cluster.
 D. Select 'Container-Optimized OS (cos)' as a node image for your GKE cluster.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company uses Cloud Storage to store application backup files for disaster recovery purposes. You want to follow Google's recommended practices. Which storage option should you use?
@@ -656,6 +864,14 @@ C. Nearline Storage.
 
 D. Coldline Storage.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -670,6 +886,14 @@ C. Use gsutil rewrite and set the Delete action to 275 days (365-90).
 D. Use gsutil rewrite and set the Delete action to 365 days.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company has an existing GCP organization with hundreds of projects and a billing account. Your company recently acquired another company that also has hundreds of projects and its own billing account. You would like to consolidate all GCP costs of both GCP organizations onto a single invoice. You would like to consolidate all costs as of tomorrow. What should you do?
@@ -682,6 +906,14 @@ C. Migrate the acquired company's projects into your company's GCP organization.
 
 D. Create a new GCP organization and a new billing account. Migrate the acquired company's projects and your company's projects into the new GCP organization and link the projects to the new billing account.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -696,6 +928,14 @@ C. Create an instance group for the instances. Set the 'Autohealing' health chec
 D. Create an instance group for the instance. Verify that the 'Advanced creation options' setting for 'do not retry machine creation' is set to off.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a development project with appropriate IAM roles defined. You are creating a production project and want to have the same IAM roles on the new project, using the fewest possible steps. What should you do?
@@ -708,6 +948,14 @@ C. In the Google Cloud Platform Console, use the 'create role from role' functio
 
 D. In the Google Cloud Platform Console, use the 'create role' functionality and select all applicable permissions.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -722,6 +970,14 @@ C. Use kubectl config get-contexts to review the output.
 D. Use kubectl config use-context and kubectl config view to review the output.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to configure IAM access audit logging in BigQuery for external auditors. You want to follow Google-recommended practices. What should you do?
@@ -734,6 +990,14 @@ C. Add the auditor user accounts to the 'logging.viewer' and 'bigQuery.dataViewe
 
 D. Add the auditor user accounts to two new custom IAM roles.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -748,6 +1012,14 @@ C. 172.16.0.0/12.
 D. 192.168.0.0/16.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You recently deployed a new version of an application to App Engine and then discovered a bug in the release. You need to immediately revert to the prior version of the application. What should you do?
@@ -760,6 +1032,14 @@ C. On the App Engine Versions page of the GCP Console, route 100% of the traffic
 
 D. Deploy the original version as a separate application. Then go to App Engine settings and split traffic between applications so that the original version serves 100% of the requests.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -774,6 +1054,14 @@ C. Create a Managed Instance Group. Set the Autohealing health check to healthy 
 D. Create a Managed Instance Group. Verify that the autoscaling setting is on.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a Linux VM that must connect to Cloud SQL. You created a service account with the appropriate access rights. You want to make sure that the VM uses this service account instead of the default Compute Engine service account. What should you do?
@@ -786,6 +1074,14 @@ C. Download a JSON Private Key for the service account. On the Custom Metadata o
 
 D. Download a JSON Private Key for the service account. After creating the VM, ssh into the VM and save the JSON under ~/.gcloud/compute-engine-service-account.json.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -800,6 +1096,14 @@ C. Grant the service account the IAM role of Compute Storage Admin in the projec
 D. When creating the VMs, set the service account's API scope for Compute Engine to read/write.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have one GCP account running in your default region and zone and another account running in a non-default region and zone. You want to start a new Compute Engine instance in these two Google Cloud Platform accounts using the command line interface. What should you do?
@@ -812,6 +1116,14 @@ C. Activate two configurations using gcloud configurations activate [NAME]. Run 
 
 D. Activate two configurations using gcloud configurations activate [NAME]. Run gcloud configurations list to start the Compute Engine instances.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -826,6 +1138,14 @@ C. Ask each member of the team to generate a new SSH key pair and to add the pub
 D. Generate a new SSH key pair. Give the private key to each member of your team. Configure the public key as a project-wide public SSH key in your Cloud Platform project and allow project-wide public SSH keys on each instance.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to deploy an application, which is packaged in a container image, in a new project. The application exposes an HTTP endpoint and receives very few requests per day. You want to minimize costs. What should you do?
@@ -838,6 +1158,14 @@ C. Deploy the container on App Engine Flexible.
 
 D. Deploy the container on Google Kubernetes Engine, with cluster autoscaling and horizontal pod autoscaling enabled.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -852,6 +1180,14 @@ C. Create a Kubernetes cluster on Compute Engine and create a deployment with th
 D. Use GCP Marketplace to launch the Jenkins solution.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are building an application that stores relational data from users. Users across the globe will use this application. Your CTO is concerned about the scaling requirements because the size of the user base is unknown. You need to implement a database solution that can scale with your user growth with minimum configuration changes. Which storage solution should you use?
@@ -864,6 +1200,14 @@ C. Cloud Firestore.
 
 D. Cloud Datastore.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -878,6 +1222,14 @@ C. With Deployment Manager, create a Compute Engine instance with a startup scri
 D. In the cluster's definition in Deployment Manager, add a metadata that has kube-system as key and the DaemonSet manifest as value.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a Virtual Machine that is currently configured with 2 vCPUs and 4 GB of memory. It is running out of memory. You want to upgrade the Virtual Machine to have 8 GB of memory. What should you do?
@@ -890,6 +1242,14 @@ C. Stop the VM, change the machine type to n1-standard-8, and start the VM.
 
 D. Stop the VM, increase the memory to 8 GB, and start the VM.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -904,6 +1264,14 @@ C. Create a second App Engine application in the existing GCP project and specif
 D. Create a new GCP project and create an App Engine application inside this new project. Specify asia-northeast1 as the region to serve your application.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Several employees at your company have been creating projects with Cloud Platform and paying for it with their personal credit cards, which the company reimburses. The company wants to centralize all these projects under a single, new billing account. What should you do?
@@ -916,6 +1284,14 @@ C. In the Google Platform Console, go to the Resource Manage and move all projec
 
 D. In the Google Cloud Platform Console, create a new billing account and set up a payment method.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -930,6 +1306,14 @@ C. Create a docker image from the Dockerfile and upload it to Container Registry
 D. Create a docker image from the Dockerfile and upload it to Cloud Storage. Create a Deployment YAML file to point to that image. Use kubectl to create the deployment with that file.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a project for your App Engine application that serves a development environment. The required testing has succeeded and you want to create a new project to serve as your production environment. What should you do?
@@ -942,6 +1326,14 @@ C. Create a Deployment Manager configuration file that copies the current App En
 
 D. Deploy your application again using gcloud and specify the project parameter with the new project name to create the new project.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -956,6 +1348,14 @@ C. Set up direct interconnect between your data center and Google Cloud Platform
 D. Go to the IAM & admin console, grant a user account permissions similar to the service account permissions, and use this user account for authentication from your data center.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You host a static website on Cloud Storage. Recently, you began to include links to PDF files on this site. Currently, when users click on the links to these PDF files, their browsers prompt them to save the file onto their local system. Instead, you want the clicked PDF files to be displayed within the browser window directly, without prompting the user to save the file locally. What should you do?
@@ -968,6 +1368,14 @@ C. Set Content-Type metadata to application/pdf on the PDF file objects.
 
 D. Add a label to the storage bucket with a key of Content-Type and value of application/pdf.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -982,6 +1390,14 @@ C. Use the IP 10.0.3.21 as a custom ephemeral IP address and assign it to the li
 D. Start the licensing server with an automatic ephemeral IP address, and then promote it to a static internal IP address.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are deploying an application to App Engine. You want the number of instances to scale based on request rate. You need at least 3 unoccupied instances at all times. Which scaling type should you use?
@@ -994,6 +1410,14 @@ C. Basic Scaling with max_instances set to 3.
 
 D. Automatic Scaling with min_idle_instances set to 3.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1008,6 +1432,14 @@ C. Storage Object Admin.
 D. Storage Object Creator.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to update a deployment in Deployment Manager without any resource downtime in the deployment. Which command should you use?
@@ -1020,6 +1452,14 @@ C. gcloud deployment-manager resources create –config <deployment-config-path>
 
 D. gcloud deployment-manager resources update –config <deployment-config-path>.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1034,6 +1474,14 @@ C. Use a TCP health check instead of an HTTP health check.
 D. Increase the initial delay of the HTTP health check to 200 seconds.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have 32 GB of data in a single file that you need to upload to a Nearline Storage bucket. The WAN connection you are using is rated at 1 Gbps, and you are the only one on the connection. You want to use as much of the rated 1 Gbps as possible to transfer the file rapidly. How should you upload the file?
@@ -1046,6 +1494,14 @@ C. Decrease the TCP window size on the machine initiating the transfer.
 
 D. Change the storage class of the bucket from Nearline to Multi-Regional.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1060,6 +1516,14 @@ C. Go to Deployment Manager and review settings for deployment of applications.
 D. Go to Cloud Shell and run gcloud config list to review the Google Cloud configuration used for deployment.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You want to verify the IAM users and roles assigned within a GCP project named my-project. What should you do?
@@ -1072,6 +1536,14 @@ C. Navigate to the project and then to the IAM section in the GCP Console. Revie
 
 D. Navigate to the project and then to the Roles section in the GCP Console. Review the roles and status.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1086,6 +1558,14 @@ C. Select Compute Engine. Use preemptible VM instances of the appropriate standa
 D. Select Compute Engine. Use VM instance types that support micro bursting.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You want to select and configure a cost-effective solution for relational data on Google Cloud Platform. You are working with a small set of operational data in one geographic location. You need to support point-in-time recovery. What should you do?
@@ -1098,6 +1578,14 @@ C. Select Cloud Spanner. Set up your instance with 2 nodes.
 
 D. Select Cloud Spanner. Set up your instance as multi-regional.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1112,6 +1600,14 @@ C. 1. Use Migrate for Compute Engine (formerly known as Velostrata) to migrate t
 D. 1. Using Cloud VPN or Interconnect, create a tunnel to a VPC in Google Cloud. 2. Use Cloud Router to create a custom route advertisement for 199.36.153.4/30. Announce that network to your on-premises network through the VPN tunnel. 3. In your on-premises network, configure your DNS server to resolve *.googleapis.com as a CNAME to restricted.googleapis.com.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company has a Google Cloud Platform project that uses BigQuery for data warehousing. Your data science team changes frequently and has few members. You need to allow members of this team to perform queries. You want to follow Google-recommended practices. What should you do?
@@ -1125,6 +1621,14 @@ C. 1. Create a dedicated Google group in Cloud Identity. 2. Add each data scient
 D. 1. Create a dedicated Google group in Cloud Identity. 2. Add each data scientist's user account to the group. 3. Assign the BigQuery dataViewer user role to the group.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are given a project with a single Virtual Private Cloud (VPC) and a single subnetwork in the us-central1 region. There is a Compute Engine instance hosting an application in this subnetwork. You need to deploy a new instance in the same project in the europe-west1 region. This new instance needs access to the application. You want to follow Google-recommended practices. What should you do?
@@ -1137,6 +1641,14 @@ C. 1. Create a subnetwork in the same VPC, in europe-west1. 2. Use Cloud VPN to 
 
 D. 1. Create a VPC and a subnetwork in europe-west1. 2. Peer the 2 VPCs. 3. Create the new instance in the new subnetwork and use the first instance's private address as the endpoint.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1153,6 +1665,14 @@ C. Cloud Pub/Sub, Cloud Storage, BigQuery, Cloud Bigtable.
 D. Cloud Pub/Sub, Cloud Dataflow, Cloud Bigtable, BigQuery.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### For analysis purposes, you need to send all the logs from all of your Compute Engine instances to a BigQuery dataset called platform-logs. You have already installed the Cloud Logging agent on all the instances. You want to minimize cost. What should you do?
@@ -1165,6 +1685,14 @@ C. 1. In Cloud Logging, create a filter to view only Compute Engine logs. 2. Cli
 
 D. 1. Create a Cloud Function that has the BigQuery User role on the platform-logs dataset. 2. Configure this Cloud Function to create a BigQuery Job that executes this query: INSERT INTO dataset.platform-logs (timestamp, log) SELECT timestamp, log FROM compute.logs WHERE timestamp > DATE_SUB(CURRENT_DATE(), INTERVAL 1 DAY) 3. Use Cloud Scheduler to trigger this Cloud Function once a day.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1179,6 +1707,14 @@ C. 1. Create a service account. 2. Give the Cloud Run Invoker role to that servi
 D. 1. Deploy your application on Cloud Run on GKE with the connectivity set to Internal. 2. Create a Cloud Pub/Sub subscription for that topic. 3. In the same Google Kubernetes Engine cluster as your application, deploy a container that takes the messages and sends them to your application.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your projects incurred more costs than you expected last month. Your research reveals that a development GKE container emitted a huge number of logs, which resulted in higher costs. You want to disable the logs quickly using the minimum number of steps. What should you do?
@@ -1191,6 +1727,14 @@ C. 1. Go to the GKE console, and delete existing clusters. 2. Recreate a new clu
 
 D. 1. Go to the GKE console, and delete existing clusters. 2. Recreate a new cluster. 3. Clear the option to enable legacy Stackdriver Monitoring.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1207,6 +1751,14 @@ C. Store the database password inside a ConfigMap object. Modify the YAML file t
 D. Store the database password in a file inside a Kubernetes persistent volume, and use a persistent volume claim to mount the volume to the container.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have an application running in Google Kubernetes Engine (GKE) with cluster autoscaling enabled. The application exposes a TCP endpoint. There are several replicas of this application. You have a Compute Engine instance in the same region, but in another Virtual Private Cloud (VPC), called gce-network, that has no overlapping IP ranges with the first VPC. This instance needs to connect to the application on GKE. You want to minimize effort. What should you do?
@@ -1220,6 +1772,14 @@ C. 1. In GKE, create a Service of type LoadBalancer that uses the application's 
 D. 1. In GKE, create a Service of type LoadBalancer that uses the application's Pods as backend. 2. Add a Cloud Armor Security Policy to the load balancer that whitelists the internal IPs of the MIG's instances. 3. Configure the Compute Engine instance to use the address of the load balancer that has been created.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are using Container Registry to centrally store your company's container images in a separate project. In another project, you want to create a Google Kubernetes Engine (GKE) cluster. You want to ensure that Kubernetes can download images from Container Registry. What should you do?
@@ -1232,6 +1792,14 @@ C. Create a service account, and give it access to Cloud Storage. Create a P12 k
 
 D. Configure the ACLs on each image in Cloud Storage to give read-only access to the default Compute Engine service account.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1250,6 +1818,14 @@ C. Review details of myapp-deployment-58ddbbb995-lp86m Pod and check for warning
 D. View logs of the container in myapp-deployment-58ddbbb995-lp86m pod and check for warning messages.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are setting up a Windows VM on Compute Engine and want to make sure you can log in to the VM via RDP. What should you do?
@@ -1262,6 +1838,14 @@ C. When creating the VM, add metadata to the instance using 'windows-password' a
 
 D. After the VM has been created, download the JSON Private Key for the default Compute Engine service account. Use the credentials in the JSON file to log in to the VM.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1276,6 +1860,14 @@ C. Enable block project wide keys for the instance. Generate an SSH key for each
 D. Enable block project wide keys for the instance. Generate an SSH key and associate the key with that instance. Distribute the key to dev1 users and direct them to use their third-party tools to connect.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to produce a list of the enabled Google Cloud Platform APIs for a GCP project using the gcloud command line in the Cloud Shell. The project name is my-project. What should you do?
@@ -1288,6 +1880,14 @@ C. Run gcloud info to view the account value, and then run gcloud services list 
 
 D. Run gcloud projects describe <project ID> to verify the project value, and then run gcloud services list --available.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1302,6 +1902,14 @@ C. Deploy a new version as a separate app in App Engine. Then configure App Engi
 D. Deploy a new version of your application in App Engine. Then go to App Engine settings in GCP Console and split traffic between the current version and newly deployed versions accordingly.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to provide a cost estimate for a Kubernetes cluster using the GCP pricing calculator for Kubernetes. Your workload requires high IOPs, and you will also be using disk snapshots. You start by entering the number of nodes, average hours, and average days. What should you do next?
@@ -1314,6 +1922,14 @@ C. Select Add GPUs. Fill in persistent disk storage and snapshot storage.
 
 D. Select Add GPUs. Add estimated cost for cluster management.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1328,6 +1944,14 @@ C. Create a Kubernetes Service of type NodePort to expose the application on por
 D. Create a HAProxy pod in the cluster to load-balance the traffic to all the pods of the application. Forward the public traffic to HAProxy with an iptable rule. Configure the DNS name of your application using the public IP of the node HAProxy is running on.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to enable traffic between multiple groups of Compute Engine instances that are currently running two different GCP projects. Each group of Compute Engine instances is running in its own VPC. What should you do?
@@ -1340,6 +1964,14 @@ C. Verify that you are the Project Administrator of both projects. Create two ne
 
 D. Verify that you are the Project Administrator of both projects. Create a new VPC and add all instances.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1354,6 +1986,14 @@ C. Select the built-in IAM project Viewer role. Add the user's account to this r
 D. Select the built-in IAM service Viewer role. Add the user's account to this role.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are operating a Google Kubernetes Engine (GKE) cluster for your company where different teams can run non-production workloads. Your Machine Learning (ML) team needs access to Nvidia Tesla P100 GPUs to train their models. You want to minimize effort and cost. What should you do?
@@ -1366,6 +2006,14 @@ C. Create your own Kubernetes cluster on top of Compute Engine with nodes that h
 
 D. Add a new, GPU-enabled, node pool to the GKE cluster. Ask your ML team to add the cloud.google.com/gke -accelerator: nvidia-tesla-p100 nodeSelector to their pod specification.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1380,6 +2028,14 @@ C. Create a new project. Use Shared VPC to share the current network with the ne
 D. Create a new subnet with the same starting IP but a wider range to overwrite the current subnet.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your organization uses G Suite for communication and collaboration. All users in your organization have a G Suite account. You want to grant some G Suite users access to your Cloud Platform project. What should you do?
@@ -1392,6 +2048,14 @@ C. Create a CSV sheet with all users' email addresses. Use the gcloud command li
 
 D. In the G Suite console, add the users to a special group called cloud-console-users@yourdomain.com. Rely on the default behavior of the Cloud Platform to grant users access if they are members of this group.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1406,6 +2070,14 @@ C. Go to Cloud Shell and export this information to Cloud Storage on a daily bas
 D. Go to GCP Console and export this information to Cloud SQL on a daily basis.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a large 5-TB AVRO file stored in a Cloud Storage bucket. Your analysts are proficient only in SQL and need access to the data stored in this file. You want to find a cost-effective way to complete their request as soon as possible. What should you do?
@@ -1418,6 +2090,14 @@ C. Create external tables in BigQuery that point to Cloud Storage buckets and ru
 
 D. Create a Hadoop cluster and copy the AVRO file to NDFS by compressing it. Load the file in a hive table and provide access to your analysts so that they can run SQL queries.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1432,6 +2112,14 @@ C. Filter the Activity log to view the Data Access category. Filter the Resource
 D. Filter the Activity log to view the Data Access category. Filter the Resource type to Google Project.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You deployed an LDAP server on Compute Engine that is reachable via TLS through port 636 using UDP. You want to make sure it is reachable by clients over that port. What should you do?
@@ -1444,6 +2132,14 @@ C. Add a network tag of your choice to the instance. Create a firewall rule to a
 
 D. Add a network tag of your choice to the instance running the LDAP server. Create a firewall rule to allow egress on UDP port 636 for that network tag.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1458,6 +2154,14 @@ C. Verify that you are the project administrator. Select the associated billing 
 D. Verify that you are project administrator. Select the associated billing account and create a budget and a custom alert.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are migrating a production-critical on-premises application that requires 96 vCPUs to perform its task. You want to make sure the application runs in a similar environment on GCP. What should you do?
@@ -1470,6 +2174,14 @@ C. Create the VM using Compute Engine default settings. Use gcloud to modify the
 
 D. Start the VM using Compute Engine default settings, and adjust as you go based on Rightsizing Recommendations.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1484,6 +2196,14 @@ C. Add a bucket lifecycle rule that archives data from regional storage after 30
 D. Add a bucket lifecycle rule that archives data from regional storage after 30 days to Nearline Storage.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company's infrastructure is on-premises, but all machines are running at maximum capacity. You want to burst to Google Cloud. The workloads on Google Cloud must be able to directly communicate to the workloads on-premises using a private IP range. What should you do?
@@ -1496,6 +2216,14 @@ C. Create bastion hosts both in your on-premises environment and on Google Cloud
 
 D. Set up Cloud VPN between the infrastructure on-premises and Google Cloud.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1510,6 +2238,14 @@ C. Select Regional Storage. Add a bucket lifecycle rule that archives data after
 D. Select Regional Storage. Add a bucket lifecycle rule that archives data after 30 days to Coldline Storage.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company uses BigQuery for data warehousing. Over time, many different business units in your company have created 1000+ datasets across hundreds of projects. Your CIO wants you to examine all datasets to find tables that contain an employee_ssn column. You want to minimize effort in performing this task. What should you do?
@@ -1522,6 +2258,14 @@ C. Write a script that loops through all the projects in your organization and r
 
 D. Write a Cloud Dataflow job that loops through all the projects in your organization and runs a query on INFORMATION_SCHEMA.COLUMNS view to find employee_ssn column.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1538,6 +2282,14 @@ C. The node pool is configured with a service account that does not have permiss
 D. The pending Pod was originally scheduled on a node that has been preempted between the creation of the Deployment and your verification of the Pods' status. It is currently being rescheduled on a new node.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You want to find out when users were added to Cloud Spanner Identity Access Management (IAM) roles on your Google Cloud Platform (GCP) project. What should you do in the GCP Console?
@@ -1550,6 +2302,14 @@ C. Go to the Stackdriver Monitoring console and review information for Cloud Spa
 
 D. Go to the Stackdriver Logging console, review admin activity logs, and filter them for Cloud Spanner IAM roles.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1564,6 +2324,14 @@ C. Create separate copies of your BigQuery data warehouse for each business unit
 D. Split your BigQuery data warehouse into multiple data warehouses for each business unit.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are building a product on top of Google Kubernetes Engine (GKE). You have a single GKE cluster. For each of your customers, a Pod is running in that cluster, and your customers can run arbitrary code inside their Pod. You want to maximize the isolation between your customers' Pods. What should you do?
@@ -1576,6 +2344,14 @@ C. Create a GKE node pool with a sandbox type configured to gvisor. Add the para
 
 D. Use the cos_containerd image for your GKE nodes. Add a nodeSelector with the value cloud.google.com/gke-os-distribution: cos_containerd to the specification of your customers' Pods.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1594,6 +2370,14 @@ D. Create a secondary index using the following Data Definition Language (DDL):
 
 ![DDL](images/ddl.png)
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your finance team wants to view the billing report for your projects. You want to make sure that the finance team does not get additional permissions to the project. What should you do?
@@ -1606,6 +2390,14 @@ C. Add the group for the finance team to roles/billing viewer role.
 
 D. Add the group for the finance team to roles/billing project/Manager role.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1620,6 +2412,14 @@ C. Add your SREs to a group and then add this group to roles/iam.roleAdmin.role.
 D. Add your SREs to a group and then add this group to roles/accessapproval.approver role.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to host an application on a Compute Engine instance in a project shared with other teams. You want to prevent the other teams from accidentally causing downtime on that application. Which feature should you use?
@@ -1632,6 +2432,14 @@ C. Use a sole-tenant node.
 
 D. Enable deletion protection on the instance.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1646,6 +2454,14 @@ C. Create a custom role by removing delete permissions, and add users to that ro
 D. Create a custom role by removing delete permissions. Add users to the group, and then add the group to the custom role.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a developer laptop with the Cloud SDK installed on Ubuntu. The Cloud SDK was installed from the Google Cloud Ubuntu package repository. You want to test your application locally on your laptop with Cloud Datastore. What should you do?
@@ -1658,6 +2474,14 @@ C. Install the google-cloud-sdk-datastore-emulator component using the apt get i
 
 D. Install the cloud-datastore-emulator component using the gcloud components install command.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1672,6 +2496,14 @@ C. Add the users to a group, and add this group to roles/browser.
 D. Add the users to a group, and add this group to roles/iam.roleViewer role.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company has a single sign-on (SSO) identity provider that supports Security Assertion Markup Language (SAML) integration with service providers. Your company has users in Cloud Identity. You would like users to authenticate using your company's SSO provider. What should you do?
@@ -1684,6 +2516,14 @@ C. Obtain OAuth 2.0 credentials, configure the user consent screen, and set up O
 
 D. Obtain OAuth 2.0 credentials, configure the user consent screen, and set up OAuth 2.0 for Web Server Applications.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1698,6 +2538,14 @@ C. Add the user to roles/iam.serviceAccountUser role.
 D. Add the user to roles/iam.serviceAccountAdmin role.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are building an archival solution for your data warehouse and have selected Cloud Storage to archive your data. Your users need to be able to access this archived data once a quarter for some regulatory requirements. You want to select a cost-efficient option. Which storage option should you use?
@@ -1710,6 +2558,14 @@ C. Regional Storage.
 
 D. Multi-Regional Storage.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1724,6 +2580,14 @@ C. Create a node pool with preemptible VMs and GPUs attached to those VMs.
 D. Create a node pool of instances with GPUs, and enable autoscaling on this node pool with a minimum size of 1.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your organization has user identities in Active Directory. Your organization wants to use Active Directory as their source of truth for identities. Your organization wants to have full control over the Google accounts used by employees for all Google services, including your Google Cloud Platform (GCP) organization. What should you do?
@@ -1736,6 +2600,14 @@ C. Export users from Active Directory as a CSV and import them to Cloud Identity
 
 D. Ask each employee to create a Google account using self signup. Require that each employee use their company email address and password.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1750,6 +2622,14 @@ C. Create a new project, modify your existing VPC to be a Shared VPC, share that
 D. Ask the security team to grant you the Project Editor role in an existing production project used by another division of your company. Once they grant you that role, replicate the setup you have in the development environment in that project.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your management has asked an external auditor to review all the resources in a specific project. The security team has enabled the Organization Policy called Domain Restricted Sharing on the organization node by specifying only your Cloud Identity domain. You want the auditor to only be able to view, but not modify, the resources in that project. What should you do?
@@ -1762,6 +2642,14 @@ C. Create a temporary account for the auditor in Cloud Identity, and give that a
 
 D. Create a temporary account for the auditor in Cloud Identity, and give that account the Security Reviewer role on the project.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1776,6 +2664,14 @@ C. Create a cron job to create a new disk from the disk using gcloud.
 D. Create a Cloud Task to create an image and export it to Cloud Storage.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to assign a Cloud Identity and Access Management (Cloud IAM) role to an external auditor. The auditor needs to have permissions to review your Google Cloud Platform (GCP) Audit Logs and also to review your Data Access logs. What should you do?
@@ -1788,6 +2684,14 @@ C. Assign the auditor's IAM user to a custom role that has logging.privateLogEnt
 
 D. Assign the auditor's IAM user to a custom role that has logging.privateLogEntries.list permission. Direct the auditor to also review the logs for changes to Cloud IAM policy.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1802,6 +2706,14 @@ C. Create a Stackdriver Logging Export with a Sink destination to Cloud Storage.
 D. Configure a Cloud Scheduler job to read from Stackdriver and store the logs in BigQuery. Configure the table expiration to 60 days.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to reduce GCP service costs for a division of your company using the fewest possible steps. You need to turn off all configured services in an existing GCP project. What should you do?
@@ -1814,6 +2726,14 @@ C. 1. Verify that you are assigned the Organizational Administrator IAM role for
 
 D. 1. Verify that you are assigned the Organizational Administrators IAM role for this project. 2. Switch to the project in the GCP console, locate the resources and delete them.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1828,6 +2748,14 @@ C. Give project owner role to crm-databases-proj and bigquery.dataViewer role to
 D. Give bigquery.dataViewer role to crm-databases-proj and appropriate roles to web-applications.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### An employee was terminated, but their access to Google Cloud Platform (GCP) was not removed until 2 weeks later. You need to find out this employee accessed any sensitive customer information after their termination. What should you do?
@@ -1840,6 +2768,14 @@ C. View Data Access audit logs in Stackdriver. Search for the user's email as th
 
 D. View the Admin Activity log in Stackdriver. Search for the service account associated with the user.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1854,6 +2790,14 @@ C. Use permissions in your role that use the 'testing' support level for role pe
 D. Use permissions in your role that use the 'testing' support level for role permissions. Set the role stage to BETA while testing the role permissions.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company has a large quantity of unstructured data in different file formats. You want to perform ETL transformations on the data. You need to make the data accessible on Google Cloud so it can be processed by a Dataflow job. What should you do?
@@ -1866,6 +2810,14 @@ C. Upload the data into Cloud SQL using the import function in the console.
 
 D. Upload the data into Cloud Spanner using the import function in the console.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1880,6 +2832,14 @@ C. 1. Use the default configuration for one project you need to manage. 2. Activ
 D. 1. Use the default configuration for one project you need to manage. 2. Use gcloud init to update the configuration values when you need to work with a non-default project.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your Managed Instance Group raised an alert stating that new instance creation has failed to create new instances. You need to maintain the number of running instances specified by the template to be able to process expected application traffic. What should you do?
@@ -1892,6 +2852,14 @@ C. Verify that the instance template being used by the instance group contains v
 
 D. Delete the current instance template and replace it with a new instance template. Verify that the instance name and persistent disk name values are not the same in the template. Set the disks.autoDelete property to true in the instance template.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1906,6 +2874,14 @@ C. 1. Build a Cassandra Compute Engine instance and take a snapshot of it. 2. Us
 D. 1. Build a Cassandra Compute Engine instance and take a snapshot of it. 2. Upload the snapshot to Cloud Storage and make it accessible to your developers. 3. Build instructions to create a Compute Engine instance from the snapshot so that developers can do it themselves.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have a Compute Engine instance hosting a production application. You want to receive an email if the instance consumes more than 90% of its CPU resources for more than 15 minutes. You want to use Google services. What should you do?
@@ -1918,6 +2894,14 @@ C. 1. Create a Stackdriver Workspace, and associate your GCP project with it. 2.
 
 D. 1. In Stackdriver Logging, create a logs-based metric to extract the CPU usage by using this regular expression: CPU Usage: ([0-9] {1,3})% 2. In Stackdriver Monitoring, create an Alerting Policy based on this metric. 3. Configure your email address in the notification channel.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1932,6 +2916,14 @@ C. Create a Cloud Monitoring alerting policy to send an alert to Google Cloud Su
 D. Create a Cloud Monitoring alerting policy to send an alert to webhook when Cloud Spanner CPU is over or under your threshold. Create a Cloud Function that listens to HTTP and resizes Spanner resources accordingly.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company publishes large files on an Apache web server that runs on a Compute Engine instance. The Apache web server is not the only application running in the project. You want to receive an email when the egress network costs for the server exceed 100 dollars for the current month as measured by Google Cloud. What should you do?
@@ -1944,6 +2936,14 @@ C. Export the billing data to BigQuery. Create a Cloud Function that uses BigQue
 
 D. Use the Cloud Logging Agent to export the Apache web server logs to Cloud Logging. Create a Cloud Function that uses BigQuery to parse the HTTP response log data in Cloud Logging for the current month and sends an email if the size of all HTTP responses, multiplied by current Google Cloud egress prices, totals over 100 dollars. Schedule the Cloud Function using Cloud Scheduler to run hourly.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1958,6 +2958,14 @@ C. Provision the solution on Google Cloud. Leave the solution provisioned for 1 
 D. Provision the solution on Google Cloud. Leave the solution provisioned for 1 week. Use Cloud Monitoring to determine the provisioned and used resource amounts. Multiply the 1 week cost to determine the monthly costs.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have an application that receives SSL-encrypted TCP traffic on port 443. Clients for this application are located all over the world. You want to minimize latency for the clients. Which load balancing option should you use?
@@ -1970,6 +2978,14 @@ C. SSL Proxy Load Balancer.
 
 D. Internal TCP/UDP Load Balancer. Add a firewall rule allowing ingress traffic from 0.0.0.0/0 on the target instances.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1984,6 +3000,14 @@ C. Migrate to use a Local SSD on the instance.
 D. Migrate to use a Regional SSD on the instance.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your Dataproc cluster runs in a single Virtual Private Cloud (VPC) network in a single subnet with range 172.16.20.128/25. There are no private IP addresses available in the VPC network. You want to add new VMs to communicate with your cluster using the minimum number of steps. What should you do?
@@ -1996,6 +3020,14 @@ C. Create a new VPC network for the VMs. Enable VPC Peering between the VMs' VPC
 
 D. Create a new VPC network for the VMs with a subnet of 172.32.0.0/16. Enable VPC network Peering between the Dataproc VPC network and the VMs VPC network. Configure a custom Route exchange.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2010,6 +3042,14 @@ C. In Cloud IAM of your project, ensure that the default App Engine service acco
 D. In Cloud IAM of your project, grant a newly created service account from the other team the role of BigQuery Job User in your project.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to create a copy of a custom Compute Engine Virtual Machine (VM) to facilitate an expected increase in application traffic due to a business acquisition. What should you do?
@@ -2022,6 +3062,14 @@ C. Create a custom Compute Engine image from a snapshot. Create your images from
 
 D. Create a custom Compute Engine image from a snapshot. Create your instances from that image.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2036,6 +3084,14 @@ C. Configure a Health Check on the instance and set a Low Healthy Threshold valu
 D. Install and configure the Cloud Logging Agent and view the logs from Cloud Logging.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### An application generates daily reports in a Compute Engine Virtual Machine (VM). The VM is in the project corp-iot-insights. Your team operates only in the project corp-aggregate-reports and needs a copy of the daily exports in the bucket corp-aggregate-reports-storage. You want to configure access so that the daily reports from the VM are available in the bucket corp-aggregate-reports-storage and use as few steps as possible while following Google-recommended practices. What should you do?
@@ -2048,6 +3104,14 @@ C. Create a Shared VPC network between both projects. Grant the VM Service Accou
 
 D. Make corp-aggregate-reports-storage public and create a folder with a pseudo-randomized suffix name. Share the folder with the IoT team.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2062,6 +3126,14 @@ C. Store credentials for service accounts with appropriate access for Google ser
 D. Store credentials for your user account with appropriate access for Google services in a config file, and deploy this config file with your application.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to create a Compute Engine instance in a new project that doesn't exist yet. What should you do?
@@ -2074,6 +3146,14 @@ C. Using the Cloud SDK, create the new instance, and use the --project flag to s
 
 D. Enable the Compute Engine API in the Cloud Console. Go to the Compute Engine section of the Console to create a new instance, and look for the Create In A New Project option in the creation form.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2088,6 +3168,14 @@ C. Migrate the workload to a Compute Engine VM. Start and stop the instance as n
 D. Create an Instance Template with Preemptible VMs On. Create a Managed Instance Group from the template and adjust Target CPU Utilization. Migrate the workload.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are developing a new application and are looking for a Jenkins installation to build and deploy your source code. You want to automate the installation as quickly and easily as possible. What should you do?
@@ -2100,6 +3188,14 @@ C. Create a new Kubernetes Engine cluster. Create a deployment for the Jenkins i
 
 D. Create an instance template with the Jenkins executable. Create a Managed Instance Group with this template.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2114,6 +3210,14 @@ C. In the CLI installation directory, create a file called default.conf containi
 D. Create a Metadata entry on the Compute Engine page with key compute/zone and value europe-west1-d.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### The core business of your company is to rent out construction equipment at large scale. All the equipment that is being rented out has been equipped with multiple sensors that send event information every few seconds. These signals can vary from engine status, distance traveled, fuel level, and more. Customers are billed based on the consumption monitored by these sensors. You expect high throughput - up to thousands of events per hour per device - and need to retrieve consistent data based on the time of the event. Storing and retrieving individual signals should be atomic. What should you do?
@@ -2126,6 +3230,14 @@ C. Ingest the data into Datastore. Store data in an entity group based on the de
 
 D. Ingest the data into Cloud Bigtable. Create a row key based on the event timestamp.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2140,6 +3252,14 @@ C. Enable API and then use default dashboards to view all projects in sequence.
 D. Enable API, create a workspace under project A, and then add projects B and C.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You created several resources in multiple Google Cloud projects. All projects are linked to different billing accounts. To better estimate future charges, you want to have a single visual representation of all costs incurred. You want to include new cost data as soon as possible. What should you do?
@@ -2152,6 +3272,14 @@ C. Fill all resources in the Pricing Calculator to get an estimate of the monthl
 
 D. Use the Reports view in the Cloud Billing Console to view the desired cost information.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2166,6 +3294,14 @@ C. Create a deny-all egress firewall rule on the VPC network.
 D. Create a route on the VPC to route all traffic to the instance over the VPN tunnel.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your team maintains the infrastructure for your organization. The current infrastructure requires changes. You need to share your proposed changes with the rest of the team. You want to follow Google's recommended best practices. What should you do?
@@ -2178,6 +3314,14 @@ C. Apply the changes in a development environment, run gcloud compute instances 
 
 D. Apply the changes in a development environment, run gcloud compute instances list, and then save the output in Cloud Source Repositories.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2192,6 +3336,14 @@ C. 1. Create a Cloud Function that creates a snapshot of your instance's disk. 2
 D. 1. Create a bash script in the instance that copies the content of the disk to Cloud Storage. 2. Create a bash script in the instance that deletes data older than 30 days in the backup Cloud Storage bucket. 3. Configure the instance's crontab to execute these scripts daily at 1:00 AM.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your existing application running in Google Kubernetes Engine (GKE) consists of multiple pods running on four GKE n1-standard-2 nodes. You need to deploy additional pods requiring n2-highmem-16 nodes without any downtime. What should you do?
@@ -2204,6 +3356,14 @@ C. Create a new cluster with n2-highmem-16 nodes. Redeploy the pods and delete t
 
 D. Create a new cluster with both n1-standard-2 and n2-highmem-16 nodes. Redeploy the pods and delete the old cluster.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2218,6 +3378,14 @@ C. Create a Cloud Dataproc cluster that runs a Spark job to extract data from Cl
 D. Create two separate BigQuery external tables on Cloud Storage and Cloud Bigtable. Use the BigQuery console to join these tables through user fields, and apply appropriate filters.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are hosting an application from Compute Engine Virtual Machines (VMs) in us-central1-a. You want to adjust your design to support the failure of a single Compute Engine zone, eliminate downtime, and minimize cost. What should you do?
@@ -2230,6 +3398,14 @@ C. Create an HTTP(S) Load Balancer. Create one or more global forwarding rules t
 
 D. Perform regular backups of your application. Create a Cloud Monitoring Alert and be notified if your application becomes unavailable. Restore from backups when notified.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2244,6 +3420,14 @@ C. Enable Audit Logs on the IAM &amp; admin page for all resources, and validate
 D. Use the command gcloud projects get-iam-policy to view the current role assignments.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are running multiple VPC-native Google Kubernetes Engine clusters in the same subnet. The IPs available for the nodes are exhausted, and you want to ensure that the clusters can grow in nodes when needed. What should you do?
@@ -2256,6 +3440,14 @@ C. Create a new VPC, and set up VPC peering with the existing VP.
 
 D. Expand the CIDR range of the relevant subnet for the cluster.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2270,6 +3462,14 @@ C. Run a test using a Managed Instance Group. If the test is successful, use N1 
 D. Run a test using N1 standard VMs instead of N2. If the test is successful, use N1 Standard VMs when running future jobs.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are working with a user to set up an application in a new VPC behind a firewall. The user is concerned about data egress. You want to configure the fewest open egress ports. What should you do?
@@ -2282,6 +3482,14 @@ C. Set up a high-priority (1000) rule that blocks all egress and a low-priority 
 
 D. Set up a high-priority (1000) rule to allow the appropriate ports.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2296,6 +3504,14 @@ C. Set up Cloud VPN between your Google Cloud VPC and the internal network of th
 D. Ask the operations partner to generate SSH key pairs, and add the public keys to the VM instances.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have created a code snippet that should be triggered whenever a new file is uploaded to a Cloud Storage bucket. You want to deploy this code snippet. What should you do?
@@ -2308,6 +3524,14 @@ C. Use Google Kubernetes Engine and configure a CronJob to trigger the applicati
 
 D. Use Dataflow as a batch job, and configure the bucket as a data source.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2322,6 +3546,14 @@ C. Set up a policy that uses Nearline storage for 30 days, then moves the Coldli
 D. Set up a policy that uses Standard storage for 30 days, then moves to Coldline for one year, and then moves to Archive storage for two years.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are storing sensitive information in a Cloud Storage bucket. For legal reasons, you need to be able to record all requests that read any of the stored data. You want to make sure you comply with these requirements. What should you do?
@@ -2334,6 +3566,14 @@ C. Allow only a single Service Account access to read the data.
 
 D. Enable Data Access audit logs for the Cloud Storage API.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2348,6 +3588,14 @@ C. Create a budget per project and configure budget alerts on all of these budge
 D. Create a single billing account for all sandbox projects and enable BigQuery billing exports. Create a Data Studio dashboard to plot the spending per project.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are deploying a production application on Compute Engine. You want to prevent anyone from accidentally destroying the instance by clicking the wrong button. What should you do?
@@ -2360,6 +3608,14 @@ C. Disable Automatic restart on the instance.
 
 D. Enable Preemptibility on the instance.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2374,6 +3630,14 @@ C. Create a custom role that combines the required permissions. Grant the DevOps
 D. Create a custom role that combines the required permissions. Grant the DevOps team the custom role on the organization level.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are building an application that processes data files uploaded from thousands of suppliers. Your primary goals for the application are data security and the expiration of aged data. You need to design the application to: Restrict access so that suppliers can access only their own data. Give suppliers write access to data only for 30 minutes. Delete data that is over 45 days old. You have a very short development cycle, and you need to make sure that the application requires minimal maintenance. Which two strategies should you use? (Choose two.)
@@ -2386,6 +3650,14 @@ C. Set up an SFTP server for your application, and create a separate user for ea
 
 D. Build a Cloud function that triggers a timer of 45 days to delete objects that have expired.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2400,6 +3672,14 @@ C. Use the Cloud Console interface to provision and manage all related resources
 D. Create a bash script that contains all requirement steps as gcloud commands.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are performing a monthly security check of your Google Cloud environment and want to know who has access to view data stored in your Google Cloud Project. What should you?
@@ -2412,6 +3692,14 @@ C. Review the Identity-Aware Proxy settings for each resource.
 
 D. Create a Data Loss Prevention job.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2426,6 +3714,14 @@ C. Configure the IP of the database as custom metadata for each instance, and qu
 D. Query the Compute Engine internal DNS from the applications to retrieve the IP of the database.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have developed a containerized web application that will serve internal colleagues during business hours. You want to ensure that no costs are incurred outside of the hours the application is used. You have just created a new Google Cloud project and want to deploy the application. What should you do?
@@ -2438,6 +3734,14 @@ C. Deploy the container on App Engine flexible environment with autoscaling, and
 
 D. Deploy the container on App Engine flexible environment with manual scaling, and set the value instances to zero in the app.yaml.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2452,6 +3756,14 @@ C. Create a ticket with Google Billing Support to ask them to send the invoice t
 D. Change the billing account of your projects to the billing account of your company.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are running a data warehouse on BigQuery. A partner company is offering a recommendation engine based on the data in your data warehouse. The partner company is also running their application on Google Cloud. They manage the resources in their own project, but they need access to the BigQuery dataset in your project. You want to provide the partner company with access to the dataset. What should you do?
@@ -2464,6 +3776,14 @@ C. Ask the partner to create a Service Account in their project, and have them g
 
 D. Ask the partner to create a Service Account in their project, and grant their Service Account access to the BigQuery dataset in your project.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2478,6 +3798,14 @@ C. Create a new service with the new version of the application. Add HTTP Load B
 D. Create a new revision with the new version of the application. Add HTTP Load Balancer in front of both revisions.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company developed a mobile game that is deployed on Google Cloud. Gamers are connecting to the game with their personal phones over the Internet. The game sends UDP packets to update the servers about the gamers' actions while they are playing in multiplayer mode. Your game backend can scale over multiple Virtual Machines (VMs), and you want to expose the VMs over a single IP address. What should you do?
@@ -2490,6 +3818,14 @@ C. Configure an External HTTP(s) load balancer in front of the application serve
 
 D. Configure an External Network load balancer in front of the application servers.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2504,6 +3840,14 @@ C. Create a script that uses the gsutil command line interface to synchronize th
 D. In the Cloud Console, go to Cloud Storage. Upload the relevant images to the appropriate bucket.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your auditor wants to view your organization's use of data in Google Cloud. The auditor is most interested in auditing who accessed data in Cloud Storage buckets. You need to help the auditor access the data they need. What should you do?
@@ -2516,6 +3860,14 @@ C. Assign the appropriate permissions, and the use Cloud Monitoring to review me
 
 D. Use the export logs API to provide the Admin Activity Audit Logs in the format they want.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2530,6 +3882,14 @@ C. Place the private key file in the installation directory of the Cloud SDK and
 D. Place the private key file in your home directory and rename it to GOOGLE_APPLICATION_CREDENTIALS.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are working with a Cloud SQL MySQL database at your company. You need to retain a month-end copy of the database for three years for audit purposes. What should you do?
@@ -2542,6 +3902,14 @@ C. Set up an on-demand backup for the first of the month. Write the backup to an
 
 D. Convert the automatic first-of-the-month backup to an export file. Write the export file to a Coldline class Cloud Storage bucket.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2556,6 +3924,14 @@ C. Create a custom log-based metric for the specific error to be used in an Aler
 D. Grant Project Owner access to the Service Account.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are developing a financial trading application that will be used globally. Data is stored and queried using a relational structure, and clients from all over the world should get the exact identical state of the data. The application will be deployed in multiple regions to provide the lowest latency to end users. You need to select a storage option for the application data while minimizing latency. What should you do?
@@ -2568,6 +3944,14 @@ C. Use Cloud Spanner for data storage.
 
 D. Use Firestore for data storage.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: C**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2582,6 +3966,14 @@ C. Provision Compute Engine instances with local SSDs attached.
 D. Provision Compute Engine instances with M1 machine type.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You have developed an application that consists of multiple microservices, with each microservice packaged in its own Docker container image. You want to deploy the entire application on Google Kubernetes Engine so that each microservice can be scaled individually. What should you do?
@@ -2594,6 +3986,14 @@ C. Create and deploy a Job per microservice.
 
 D. Create and deploy a Deployment per microservice.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2608,6 +4008,14 @@ C. After starting the instances, use gcloud compute instances update to specify 
 D. After starting the instances, use gcloud compute instances update to assign the name of the relevant Service Account as instance metadata.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You are creating an application that will run on Google Kubernetes Engine. You have identified MongoDB as the most suitable database system for your application and want to deploy a managed MongoDB environment that provides a support SLA. What should you do?
@@ -2620,6 +4028,14 @@ C. Download a MongoDB installation package, and run it on Compute Engine instanc
 
 D. Download a MongoDB installation package, and run it on a Managed Instance Group.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: B**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -2634,6 +4050,14 @@ C. Use Cloud Scheduler to schedule a batch Dataflow job to copy the data from Bi
 D. Assign the IAM role of BigQuery User to a Google Group that contains the members of the BI team.
 
 
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: D**
+
+</details>
+
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Your company is moving its entire workload to Compute Engine. Some servers should be accessible through the Internet, and other servers should only be accessible over the internal network. All servers need to be able to talk to each other over specific ports and protocols. The current on-premises network relies on a demilitarized zone (DMZ) for the public servers and a Local Area Network (LAN) for the private servers. You need to design the networking infrastructure on Google Cloud to match these requirements. What should you do?
@@ -2646,5 +4070,13 @@ C. 1. Create a VPC with a subnet for the DMZ and another VPC with a subnet for t
 
 D. 1. Create a VPC with a subnet for the DMZ and another VPC with a subnet for the LAN. 2. Set up firewall rules to open up relevant traffic between the DMZ and the LAN subnets, and another firewall rule to allow public egress traffic for the DMZ.
 
+
+
+<details>
+<summary>정답 보기</summary>
+
+**정답: A**
+
+</details>
 
 **[⬆ Back to Top](#table-of-contents)**
